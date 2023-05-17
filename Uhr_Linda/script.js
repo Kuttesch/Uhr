@@ -48,10 +48,10 @@ function updateClock() {
   let secondRotation = seconds * degPerSecond;
   let milsecRotation = miliseconds * degPerMilSec;
 
-  hourHand.style.transform = /*'translate(-50%, -50%)*/' rotate(' + hourRotation + 'deg)';
-  minuteHand.style.transform = /*'translate(-50%, -50%)*/'rotate(' + minuteRotation + 'deg)';
-  secondHand.style.transform = /*'translate(-50%, -50%)*/'rotate(' + secondRotation + 'deg)';
-  milsecHand.style.transform = /*'translate(-50%, -50%)*/'rotate(' + milsecRotation + 'deg)';
+  hourHand.style.transform = ' rotate(' + hourRotation + 'deg)';
+  minuteHand.style.transform = 'rotate(' + minuteRotation + 'deg)';
+  secondHand.style.transform = 'rotate(' + secondRotation + 'deg)';
+  milsecHand.style.transform = 'rotate(' + milsecRotation + 'deg)';
 
   setTimeout(updateClock, 1);
 }
