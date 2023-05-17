@@ -9,39 +9,39 @@
   background-color: #ffffff;
 }
 
-.circle1,
-.circle2,
-.circle3,
-.circle4,
-.circle5,
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5,
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.circle1 {
-  z-index: 0;
-}
-.circle2 {
-  z-index: 1;
-}
-.circle3 {
-  z-index: 2;
-}
-.circle4 {
-  z-index: 3;
-}
-.circle5 {
-  z-index: 4;
-}
-.button {
-  z-index: 5;
-}
+  .circle1 {
+    z-index: 0;
+  }
+  .circle2 {
+    z-index: 1;
+  }
+  .circle3 {
+    z-index: 2;
+  }
+  .circle4 {
+    z-index: 3;
+  }
+  .circle5 {
+    z-index: 4;
+  }
+  .button {
+    z-index: 5;
+  }
 
   .circle-sec,
   .circle-minute,
@@ -75,32 +75,29 @@
     height: 220px;
   }
 
-.hand-hour,
-.hand-minute,
-.hand-sec,
-.hand-mili {
-  width: 40px;
-  position: absolute;
-  transform-origin: bottom center;
-  bottom: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #0c6e95;
-  margin-left: -20px;
-}
+  .hand-hour,
+  .hand-minute,
+  .hand-sec,
+  .hand-mili {
+    width: 40px;
+    position: absolute;
+    transform-origin: bottom center;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0c6e95;
+    margin-left: -20px;
+  }
 
   .hand-hour {
     height: 150px;
   }
-  
   .hand-minute {
     height: 195px;
   }
-  
   .hand-sec {
     height: 260px;
   }
-
   .hand-mili {
     height: 300px;
   }
