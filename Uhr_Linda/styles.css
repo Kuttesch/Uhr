@@ -27,23 +27,18 @@
 .circle1 {
   z-index: 0;
 }
-
 .circle2 {
   z-index: 1;
 }
-
 .circle3 {
   z-index: 2;
 }
-
 .circle4 {
   z-index: 3;
 }
-
 .circle5 {
   z-index: 4;
 }
-
 .button {
   z-index: 5;
 }
@@ -56,6 +51,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    background-color: #ffffff;
 
   }
 
@@ -63,27 +59,20 @@
   .circle-sec {
     width: 519px;
     height: 519px;
-    background-color: #ffffff;
     border: 6px solid #3b3b3b;
   }
-    
   .circle-minute {
     width: 439px;
     height: 439px;
-    background-color: #ffffff;
   }
-
   .circle-hour {
     width: 299px;
     height: 299px;
-    background-color: #ffffff;
     border: 6px solid #3b3b3b;
   }
-
   .circle-dig {
     width: 220px;
     height: 220px;
-    background-color: #ffffff;
   }
 
 .hand-hour,
